@@ -1,0 +1,8 @@
+/composer.lock
+
+/storage/logs/
+/storage/configure/configure.php
+/uploads/
+/vendor/
+/model/nbproject/
+/nbproject/

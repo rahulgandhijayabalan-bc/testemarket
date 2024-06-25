@@ -1,0 +1,54 @@
+;=-=-=-= Copyright © 2018 eMarket =-=-=-=-=;
+;     GNU GENERAL PUBLIC LICENSE v.3.0     ;
+;   https://github.com/musicman3/eMarket   ;
+;=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-;
+
+[install]
+
+button_go_login = Next
+confirm_install = Install Software?
+hash_blowfish = BLOWFISH
+hash_argon2i = ARGON2I
+hash_recommended = Recommended (BCRYPT)
+crypt_method = Encryption Method
+database_family = DB Family
+database_family_mysql = MySQL/MariaDB
+database_family_pgsql = PostgreSQL
+database_family_sqlite = SQLite
+database_innodb = InnoDB (protected)
+database_myisam = MyISAM (default)
+database_name = Database Name
+database_port = Port
+database_prefix = DB Prefix
+database_type = DB Type
+database_text = Database
+database_security_text = Security and authorization
+server_current_settings = Server current settings
+email_check = Please, enter correct E-Mail
+file_configure_not_found = File storage/configure/configure.php not found!
+file_not_found = SQL-file in model/databases/ not found!
+hash_method = Hashing Method
+install_button = INSTALL
+install_panel = eMarket installation wizard
+from_developers = From the developers
+login_admin = Admin E-Mail
+login_db = Database Username
+password_admin = Admin Password
+password_admin_confirm = Confirmation Password
+password_check = Confirmation password error
+password_db = Database Password
+password_length_max = Length password > 40 symbols
+password_length_min = Length password < 5 symbols
+select_language = -- Select language --
+server_db = DB Server
+server_db_error = No DB connection!
+server_db_name_error = DB not found!
+success = Installation completed successfully!
+title_install = eMarket install
+title_success = Installation completed successfully
+title_error = Installation error
+database_server_error = Database server name error
+database_login_error = Username or password of the DB user is not correct
+database_table_error = The table name in the DB is not correct
+emarket_text = We started work on the project on March 10, 2018. During this time, a lot of work has been done. We are grateful for the support of our families and friends, without whose support this project would not have been possible. We are also grateful to eMarket users who have chosen us and help us with their advice, participation in the project or a cup of coffee.
+emarket_best_regards = Best regards, eMarket team.

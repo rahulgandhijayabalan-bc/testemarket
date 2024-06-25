@@ -1,0 +1,52 @@
+/* =-=-=-= Copyright © 2018 eMarket =-=-=-=  
+  |    GNU GENERAL PUBLIC LICENSE v.3.0    |
+  |  https://github.com/musicman3/eMarket  |
+  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font: inherit;font-size: 100%;vertical-align: middle;}
+table {border-collapse: collapse;border-spacing: 0;}
+th, td {text-align: left;font-weight: normal;}
+a img {border: none;}
+figure, footer, header, section {display: block;}
+body {font-weight: 400;font-size: 12px;margin: 0;padding: 0;color: #495057;}
+body a {text-decoration: none;color: inherit;}
+body a:hover {color: inherit;opacity: 0.7;}
+body .container {min-width: 500px;margin: 0 auto;}
+body .clearfix:after {content: "";display: table;clear: both;}
+body .left {float: left;}
+body .right {float: right;}
+body .helper {height: 100%;}
+header {height: 40px;margin-top: 20px;margin-bottom: 20px;padding: 0px 5px 0;text-align: right;}
+header .company-info {color: #495057;}
+header .company-info .title {margin-bottom: 5px;color: #087990;font-weight: bold;font-size: 2em;}
+section .details {min-width: 500px;margin-bottom: 25px;padding: 10px 35px;background-color: #087990;color: #ffffff;}
+section .details .client {width: 50%;line-height: 16px;}
+section .details .client, section .details .date {font-weight: bold;}
+section .details .data {width: 50%;text-align: right;}
+section .details .title {margin-bottom: 15px;font-size: 2.3em;font-weight: 400;text-transform: uppercase;}
+section .table-wrapper {position: relative;overflow: hidden;}
+section .no-break {page-break-inside: avoid;}
+section table {width: 100%;margin-bottom: -20px;table-layout: fixed;border-collapse: separate;border-spacing: 2px 2px;}
+section table .no {width: 10px;}
+section table .desc {width: 55%;}
+section table .qty, section table .unit, section table .total {width: 15%;}
+section table tbody.head {border-color: inherit;}
+section table tbody.head th {text-align: center;color: white;font-weight: bold;text-transform: uppercase;}
+section table tbody.head th {padding: 10px;background: #087990;}
+section table tbody.head th.desc {width: 115px;margin-left: -110px;}
+section table tbody.body td {padding: 10px;background: #dee2e6;text-align: center;}
+section table tbody.body .no {background-color: #087990;color: #ffffff;font-size: 1.66666666666667em;font-weight: 600;}
+section table tbody.body .desc {background-color: transparent;color: #495057;text-align: left;}
+section table tbody.body .total {color: #087990;font-weight: 600;}
+section table tbody.body tr.total td {padding: 5px 10px;background-color: transparent;border: none;color: #495057;text-align: right;}
+section table tbody.body tr.total .empty {background: white;}
+section table tbody.body tr.total .total {font-size: 1.18181818181818em;font-weight: 600;color: #087990;}
+section table.grand-total {margin-top: 40px;margin-bottom: 0;border-collapse: separate;border-spacing: 2px 2px;margin-bottom: 40px;}
+section table.grand-total tbody td {padding: 10px;background-color: #087990;color: #ffffff;font-weight: bold;text-align: right;}
+section table.grand-total tbody td.no, section table.grand-total tbody td.desc, section table.grand-total tbody td.qty {background-color: transparent;}
+section table.grand-total tbody td.grand-total {font-size: 1.16666666666667em;font-weight: bold;background-color: #d63384;padding: 10px 5px;}
+footer {margin-bottom: 20px;padding: 0 5px;}
+footer .thanks {margin-bottom: 40px;color: #087990;font-size: 1.16666666666667em;font-weight: 600;}
+footer .notice {margin-bottom: 25px;}
+footer .end {padding-top: 5px;border-top: 2px solid #087990;text-align: center;}
+

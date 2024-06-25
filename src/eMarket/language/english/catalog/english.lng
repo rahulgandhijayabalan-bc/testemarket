@@ -1,0 +1,279 @@
+;=-=-=-= Copyright © 2018 eMarket =-=-=-=-=;
+;     GNU GENERAL PUBLIC LICENSE v.3.0     ;
+;   https://github.com/musicman3/eMarket   ;
+;=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-;
+
+[catalog]
+
+;TITLE
+title_catalog_index =  eMarket Online Store
+title_login_index = Authorization
+title_register_index = Registration
+title_cart_index = Cart
+title_products_index = Product
+title_listing_index = Category
+title_recoverypass_index = Password Recovery
+title_address_book_index = Address Book
+title_success_index = Order completed successfully
+title_orders_index = My Orders
+title_my_account_index = My Account
+title_checkout_index = Order prepared
+title_without_registration_index = Shipping Information
+title_page_not_found_index = Page Not Found
+
+;INDEX
+index_text = eMarket Bootstrap 5 Demo
+
+;DEBUG
+debug_page_generation_time = Page generation time:
+debug_db_queries = DB queries:
+debug_sec = sec.
+debug_pcs = pcs.
+
+;MY ACCOUNT
+my_account_name = My account
+my_account_firstname = Firstname
+my_account_lastname = Lastname
+my_account_middlename = Middle name
+my_account_telephone = Phone
+my_account_password = New password
+my_account_confirm_password = Confirm password
+my_account_enter_your_firstname = Please enter your firstname
+my_account_enter_your_lastname = Please enter your lastname
+my_account_enter_your_middlename = Please enter your middle name
+my_account_enter_your_phone = Please enter your phone (example: +12345678900)
+my_account_enter_your_password = Please enter your new password
+my_account_confirm_your_password = Please confirm your new password
+my_account_password_check = Confirmation password error
+my_account_personal_details = Personal details
+my_account_details_password = Password details
+
+;LAYOUTS
+categories_name = Categories
+search_name = Search...
+new_products_name = New products
+sale = Sale
+recommended = Recommended
+articles = Articles
+my_account = My account
+
+;BUTTONS
+button_add = Add
+button_cancel = Cancel
+button_delete = Delete
+button_edit = Edit
+button_next = Next
+button_previous = Previous
+cancel = Cancel
+save = Save
+button-view-switch = View
+button-all-switch = All
+button-instock-switch = In stock
+confirm-no-switch = NO
+confirm-yes-switch = YES
+confirm-del = Delete?
+confirm-no = No
+confirm-yes = Yes
+with = Displaying 
+to = to
+of = of
+button_continue_shopping = Continue shopping
+button_proceed_to_checkout = Proceed to checkout
+
+;PAGES
+shopping_cart = Cart
+сheckout_click = Buy in one click
+regular_customer = Regular customer
+new_customer = New Customer
+sign_in = Sign in
+continue = Continue
+default = Default
+default_set = Default Set
+password = Enter password
+confirm_password = Confirm password
+this_page_is_not_available = This page is not available!
+enter_a_new_password = Enter a new password
+e_mail = E-Mail
+
+;LOGIN
+login_e_mail = E-Mail
+login_password = Enter password
+login_sign_in = Sign in
+login_to_account = Authorization
+login_register = Register
+login_buy_without_registration = Buy without registration
+login_new_customer = New Customer
+login_description = By creating an account you will be able to take advantage of this store by shopping faster, be kept up to date on the status of an order, and keep track of the orders you have made.
+login_forgot_your_password = Forgot your password?
+
+;BREADCRUMB
+breadcrumb_home = Home
+breadcrumb_search = Search
+
+;PRODUCT
+product_manufacturer = Manufacturer:
+product_model = Model:
+product_weight = Weight:
+product_availability = Availability:
+product_in_stock_from = expected
+product_in_stock = in stock
+product_out_of_stock = out of stock
+product_dimension = Dimension (%s):
+product_dimension_length = L
+product_dimension_width = W
+product_dimension_height = H
+product_specification = Specification
+product_description = Description
+product_not_found = Product not found
+product_not_found_message = Sorry. Product not found.
+
+;LISTING
+listing_no = There are no products in this category.
+listing_no_search = Products not found
+listing_search = Search results
+listing_sort_by_default = By default
+listing_sort_by_name = By name
+listing_sort_by_price_asc = Price (ascending)
+listing_sort_by_price_desc = Price (descending)
+listing_product_added_to_cart = Product successfully added to your shopping cart!
+listing_product = Product:
+listing_price = Price:
+listing_quantity = Quantity:
+listing_no_more_in_stock = No more in stock
+
+;ADDRESS BOOK
+my_address_book = Address Book
+address_book_country = Country
+address_book_region = Region
+address_book_city = City
+address_book_zip = Postal code / ZIP
+address_book_shipping_address = Shipping address
+address_book_city_placeholder = Enter name of your city
+address_book_zip_placeholder = Enter postal code
+address_book_address_placeholder = Enter shipping address
+
+;CART
+cart_shipping_address = Shipping address
+cart_shipping_address_small = Please, enter your shipping address
+cart_shipping_method = Shipping
+cart_shipping_method_small = Please, enter your shipping method
+cart_payment_method = Payment
+cart_payment_method_small = Please, enter your payment method
+cart_product = Product
+cart_price = Price
+cart_quantity = Quantity
+cart_amount = Amount
+cart_total = Total:
+cart_estimated_taxes = Estimated Taxes:
+cart_price_including_all_taxes = Products subtotal is including all taxes
+cart_shopping_cart_empty = Shopping cart is empty
+cart_сheckout = Checkout
+cart_discount_card_number = Discount card number
+cart_discount_card_apply = Apply
+cart_shipping_is_not_available = Shipping to this region is not available
+cart_payment_is_not_available = Payment for this shipping method is not available.
+cart_shipping_is_not_available_and_min_price = . Min. order price:
+cart_shipping_price = Shipping price:
+cart_subtotal = Products subtotal:
+cart_validate_purchase = Validate purchase
+cart_complete = Complete
+cart_edit_shipping_information = Edit shipping information
+
+;CHECKOUT
+checkout_text = Order prepared
+
+;OTHER
+buy_now = Buy Now
+add_to_cart = Add to Cart
+action_completed_successfully = Action completed successfully!
+action_failed = Action failed!
+no_listing = No listing
+attention = ATTENTION!
+
+;MESSAGES
+messages_email_is_busy = This E-Mail is busy! Please enter another email.
+messages_registration_complete = Registration successfully completed! Please check your E-Mail.
+messages_activation_complete = Activation successfully completed! Please login to you account.
+messages_email_or_password_is_not_correct = E-mail or password is not correct!
+messages_recovery_password_complete = Password successfully changed! Please login to you account.
+messages_recovery_password_failed = Password not changed! Your password has expired. Please re-request access recovery.
+messages_alert_name = eMarket message
+
+;NAVBAR
+navbar_pcs = pcs.
+navbar_languages = Languages
+navbar_currencies = Currencies
+navbar_logout = Logout
+navbar_view_cart = View Cart
+
+;REGISTER
+register_password_check = Confirmation password error
+register_email_check = Please, enter correct E-Mail
+register_password_recovery = Password recovery
+register_password_recovery_message_success = Password recovery message sent to your E-Mail
+register_password_recovery_message_failed = Please, enter correct E-Mail
+register_problem_message = Dear Customer. Something went wrong. Please enter correct information and try again. If you still have problems with registration, please contact us to resolve this issue.
+register_complete_message = Dear Customer. You have just registered in our online store. We hope that the purchases made with us will be successful and profitable for you. To complete the registration, check your E-Mail and confirm the registration operation by clicking on the link in the letter.
+register_privacy_statement_agree = I have read and agreed to your <a href="%s" data-bs-toggle="modal" class="agree">privacy statement</a>.
+register_account = Registration
+register_personal_details = Personal details
+register_first_name = First Name
+register_last_name = Last Name
+register_e_mail = E-Mail
+register_telephone = Telephone (example: +12345678900)
+register_details_password = Password details
+register_privacy_policy_tittle = Privacy policy
+register_privacy_policy_text = Privacy policy text...
+
+;WITHOUT REGISTRATION
+without_registration_index = Shipping Information
+without_registration_your_address = Your address
+
+;WELCOME
+welcome_name = Welcome %s!
+welcome_text = The default shopping cart comes with by Bootstrap 5 and Vanilla JS making it lighter, faster and responsive.
+welcome_guest = Guest
+
+;E-MAIL MESSAGES
+email_registration_subject = Registration in the online store eMarket!
+email_registration_message = Click the link below to let us know this is really your email and complete registration. <br><br><a href="%s" target="_blank">%s</a>
+email_recovery_password_subject = Account Access Recovery
+email_recovery_password_message = Click the link below to enter a new password to access your account. <br><br><a href="%s" target="_blank">%s</a>
+email_order_success_subject = Order #%s successfully completed (%s).
+email_order_success_message = Dear customer. Thank you for purchasing from eMarket. Your order #%s has been successfully completed. <br><br>Order status: %s. <br><br>Details of the order can be found in your personal account: <a href="%s" target="_blank">%s</a>
+
+;PROVIDERS
+providers_order_success = Order #%s successfully completed (%s).
+
+;ORDERS
+orders_book = Orders book
+orders_total = Total
+orders_status = Status
+orders_shipping = Shipping
+orders_client = Client
+orders_amount = Amount
+orders_quantity = Quantity
+orders_price = Price
+orders_product = Product
+orders_products = Products
+orders_transaction_history = Transaction history
+orders_status_history = Status history
+orders_description = Description
+orders_payment_method = Payment method
+orders_billing_address = Billing address
+orders_date_added = Date added
+orders_date_of_change = Date of change
+orders_number = Order No.
+orders_subtotal = Products subtotal
+orders_sticker = Sticker
+orders_estimated_taxes = Estimated Taxes:
+orders_price_including_all_taxes = Products subtotal is including all taxes
+
+;SUCCESS
+success_text = Order completed successfully
+success_message = Dear customer. Thank you for purchasing from eMarket. Your order has been successfully completed. <br><br>Details of the order can be found in your personal account.
+
+;PAGE NOT FOUND
+page_not_found_header = Attention!
+page_not_found_title = Page not found
+page_not_found_text = Please enter a valid url or contact the administrator.

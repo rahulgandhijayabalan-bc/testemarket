@@ -1,0 +1,412 @@
+;=-=-=-= Copyright © 2018 eMarket =-=-=-=-=;
+;     GNU GENERAL PUBLIC LICENSE v.3.0     ;
+;   https://github.com/musicman3/eMarket   ;
+;=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-;
+
+[admin]
+
+;SHOP NAME
+shop_name = eMarket
+
+;TITLE
+title_categories_index = Категории
+title_dashboard_index = Мониторинг
+title_error_log_index = Лог ошибок
+title_action_log_index = Лог действий
+title_login_index = Страница авторизации
+title_manufacturers_index = Производители
+title_orders_index = Заказы
+title_basic_settings_index = Параметры
+title_countries_index = Страны
+title_countries_regions_index = Регионы
+title_currencies_index = Валюты
+title_length_index = Длина
+title_modules_index = Модули
+title_order_status_index = Статусы заказов
+title_taxes_index = Налоги
+title_templates_index = Компоновка шаблона
+title_units_index = Единицы измерения
+title_vendor_codes_index = Идентификаторы товара
+title_weight_index = Вес
+title_zones_index = Зоны
+title_zones_listing_index = Страны и регионы
+title_slideshow_index = Слайдшоу
+title_stickers_index = Стикеры
+title_stock_index = Склад
+title_customers_index = Клиенты
+title_staff_manager_index = Менеджер персонала
+title_staff_manager_staff_index = Персонал
+title_page_not_found_index = Страница не найдена
+
+;КНОПКИ МЕНЮ
+menu_name = Главное меню
+menu_dashboard = Мониторинг
+menu_catalog = Каталог товаров
+menu_market = Магазин
+menu_sales = Продажи
+menu_production = Производство
+menu_customers = Клиенты
+menu_marketing = Маркетинг
+menu_error_log = Лог ошибок
+menu_action_log = Лог действий
+menu_exit = Выход
+menu_extra = Прочее
+menu_languages = Языки
+menu_settings = Настройки
+menu_support = Поддержка
+menu_tools = Инструменты
+
+;LOGIN
+login_error = Введены неверные E-Mail или пароль
+
+;КНОПКИ
+button_add = Добавить
+button_add_image = Добавить изображение...
+button_cancel = Отмена
+button_delete = Удалить
+button_edit = Редактировать
+button_move = Переместить
+cancel = Отмена
+confirm-del = Вы уверены что хотите удалить?
+confirm-no = Нет
+confirm-yes = Да
+confirm-install = Установить?
+confirm-status = Изменить статус?
+confirm-no-switch = НЕТ
+confirm-yes-switch = ДА
+save = Сохранить
+button_action = Действие
+button_show = Отобразить
+button_hide = Скрыть
+button_on = ВКЛ.
+button_off = ВЫКЛ.
+button_sticker = Стикер
+button_sticker_add = Добавить стикер
+button_sticker_delete = Удалить стикер
+button_back = Назад
+cut = Вырезать
+paste = Вставить
+search = Искать...
+select_all = Выбрать все
+select_country_and_region = Выберите страну и регион
+positions_selected = Выбрано позиций
+pcs = шт.
+new_version_available = Доступна новая версия
+
+;РАЗНОЕ
+with = Отображено с
+to = по
+of = из
+no_listing = Нет записей
+name = Название
+images = Изображение
+display = Отображать
+max = Макс.
+password = Пароль
+email = E-Mail
+entrance = Вход
+product_price = Цена
+product_quantity = Количество
+product_unit = Единица измерения
+product_description = Описание
+name_little = Сокращенное наименование
+name_full = Полное наименование
+name_description = Описание
+add_name_description = Добавить описание
+name_country = Название страны
+country = Страна
+alpha_2 = Код ISO 3166-1 Alpha 2
+alpha_3 = Код ISO 3166-1 Alpha 3
+country_flag = Флаг страны
+address_format = Формат адреса:
+add_address_format = Укажите формат адреса
+name_region = Название региона
+name_zone = Название зоны
+region_code = Код региона
+region = Регион
+value = Значение
+default = По умолчанию
+default_set = Установить по умолчанию
+zone = Зона
+action_completed_successfully = Действие успешно выполнено!
+action_failed = Действие не выполнено!
+categories_transfer = Трансфер со следующей страницей
+download_complete = Загрузка завершена!
+image_resize_error = ВНИМАНИЕ: Некоторые изображения не добавлены. Как минимум одна из сторон изображения должна быть не менее чем: 
+attention = ВНИМАНИЕ!
+confirm_delete_product_or_category = Вы уверены что хотите удалить категорию или товар?
+confirm_delete_sticker = Вы уверены что хотите удалить стикер?
+enter_value = Введите значение
+
+;DEBUG
+debug_page_generation_time = Время генерации страницы:
+debug_db_queries = Запросов к БД:
+debug_sec = сек.
+debug_pcs = шт.
+
+;MODULES
+payment_modules = Оплата
+shipping_modules = Доставка
+discount_modules = Скидки
+providers_modules = Провайдеры
+tabs_modules = Вкладки товара
+extra_modules = Дополнительно
+cart_modules = Корзина
+other_modules = Другое
+installed_modules = Установленные модули
+uninstalled_modules = Модули, доступные для установки
+modules_name = Название модуля:
+modules_author = Автор:
+modules_version = Версия:
+
+;BASIC SETTINGS
+lines_on_page = Строк на странице
+session_expr_time = Время простоя сессии (мин.)
+session_expr_time_help = В течение указанного времени после последнего обновления страницы браузера сессия будет активна
+debug_info = Отладочная информация
+debug_on = Вкл.
+debug_off = Откл.
+basic_settigs_general = Основные настройки
+basic_settigs_email = Настройки E-Mail
+basic_settings_host_email = Хост
+basic_settings_username_email = Логин
+basic_settings_password_email = Пароль
+basic_settings_smtp_auth = Авторизация SMTP
+basic_settings_smtp_secure = Защищенное соединение
+basic_settings_smtp_port = SMTP Порт
+basic_settings_smtp_use = Использовать SMTP
+basic_settings_email = E-mail отправителя
+basic_settings_email_name = Имя отправителя
+basic_settings_primary_language = Основной язык
+basic_settings_caching = Кэширование
+basic_settings_use_caching = Использовать кэширование
+basic_settings_caching_time = Время кэширования (сек.)
+
+;MANUFACTURERS
+manufacturer = Производитель
+site = Сайт
+
+;ORDER STATUS
+order_status_name = Статус заказа
+
+;LENGTH
+length_name_little = Сокращенное наименование
+length_name_full = Полное наименование
+length_value = Значение
+
+;WEIGHT
+weight_name_little = Сокращенное наименование
+weight_name_full = Полное наименование
+weight_value = Значение
+
+;UNITS
+units_name_little = Сокращенное наименование
+units_name_full = Полное наименование
+
+;VENDOR CODES
+vendor_codes_name = Идентификатор товара
+vendor_codes_description = Описание
+
+;CURRENCIES
+currencies_currency_symbol = Символ валюты
+currencies_decimal_places = Количество десятичных знаков
+currencies_symbol_left = Символ слева
+currencies_symbol_right = Символ справа
+currencies_iso_4217 = Код ISO 4217
+currencies_name_little = Сокращенное наименование
+currencies_name_full = Полное наименование
+currencies_value = Значение
+currencies_position = Позиция
+
+;TAXES
+taxes_modal_name = Название
+taxes_modal_rate = Налоговая ставка
+taxes_modal_percent = ПРОЦЕНТ
+taxes_modal_value = ЗНАЧЕНИЕ
+taxes_modal_included = ВКЛЮЧЕН
+taxes_modal_separately = ОТДЕЛЬНО
+taxes_modal_fixed_desc = Фиксированное значение / Процент
+taxes_modal_included_desc = Отдельно / Включен в стоимость
+taxes_modal_zones_desc = Зона действия налога
+taxes_rate = Ставка
+taxes_name = Налог
+taxes_percent = %
+taxes_value = %s
+taxes_included = ВКЛЮЧЕН
+taxes_separately = ОТДЕЛЬНО
+taxes_fixed_desc = Фиксированное значение / Процент
+taxes_included_desc = Отдельно / Включен в стоимость
+taxes_zones_desc = Зона действия налога
+
+;CATEGORIES
+add_category = Добавить категорию
+add_product = Добавить товар
+
+;TEMPLATES
+templates_all_pages = Все страницы
+templates_set = Установить
+templates_delete = Удалить
+templates_save = Сохранить
+templates_name = Имя
+templates_set_config_name = Укажите имя конфигурации
+
+;ORDERS
+orders_total = Итого
+orders_id = ID товара
+orders_status = Статус
+orders_shipping = Доставка
+orders_client = Клиент
+orders_amount = Сумма
+orders_quantity = Количество
+orders_price = Цена
+orders_product = Товар
+orders_products = Товары
+orders_sticker = Стикер
+orders_transaction_history = История транзакций
+orders_status_history = История статусов
+orders_description = Описание
+orders_payment_method = Метод оплаты
+orders_billing_address = Платежный адрес
+orders_date_added = Дата добавления
+orders_date_of_change = Дата изменения
+orders_number = № заказа
+orders_subtotal = Стоимость товаров
+orders_estimated_taxes = Расчетные налоги:
+orders_price_including_all_taxes = Стоимость товаров указана с учетом всех налогов
+orders_email = E-mail
+orders_change_status_subject = Статус заказа №%s успешно изменен (%s).
+orders_change_status_message = Уважаемый покупатель. Статус Вашего заказа №%s изменен. <br><br>Новый статус заказа: %s. <br><br>Подробности заказа можно посмотреть в Вашем личном кабинете: <a href="%s" target="_blank">%s</a>
+orders_change_status_message_providers = Статус заказа №%s успешно изменен (%s).
+orders_blanks_invoice_title = Счет
+
+;STOCK
+stock_tittle_specification_group_name = Название группы характеристик
+stock_tittle_specification_name = Название характеристики
+stock_tittle_specification_value = Значение характеристики
+stock_basic = Основное
+stock_specification = Характеристики
+stock_product_description = Описание
+stock_product_basic = Основное
+stock_product_additional = Дополнительное
+stock_product_specification = Характеристики
+stock_product_images = Изображения
+stock_product_name = Название товара
+stock_product_description = Описание товара
+stock_product_keywords = Keywords для поисковой оптимизации
+stock_product_tags = Tags для поисковой оптимизации
+stock_product_price = Цена товара
+stock_product_currency = Валюта
+stock_product_quantity_in_stock = Количество на складе
+stock_product_quantity_unit = Единица измерения количества
+stock_product_model = Модель
+stock_product_manufacturer = Производитель
+stock_product_receipt_date = Дата поступления
+stock_product_tax = Налог
+stock_product_vendor_code_value = Значение идентификатора товара
+stock_product_vendor_code = Идентификатор товара
+stock_product_weight_value = Значение веса
+stock_product_weight = Вес
+stock_product_minimum_order_quantity = Минимальное количество для заказа
+stock_product_length_unit = Единица измерения длины
+stock_product_length_value = Длина товара
+stock_product_width_value = Ширина товара
+stock_product_height_value = Высота товара
+stock_product_effects_for_image_processing = Эффекты для обработки изображения
+stock_product_no_effects = Нет эффектов
+stock_product_sepia_effect = Сепия
+stock_product_black_and_white_effect = Чёрно-белое
+stock_product_blur1_effect = Размытие 1
+stock_product_blur2_effect = Размытие 2
+stock_product_create_description = Создайте описание товара с помощью этого редактора...
+
+;CUSTOMERS
+customers_firstname = Имя
+customers_lastname = Фамилия
+customers_email = Email
+customers_date_created = Дата создания
+
+;STICKERS
+stickers_name = Название стикера
+
+;SLIDES
+slides_image = Изображение
+slides_name = Название
+slides_show_start = Начало показа
+slides_show_end = Конец показа
+slides_text = Текст
+slides_url = https://example.com
+slides_interval = Интервал (мс)
+slides_interval_placeholder = Интервал переключения слайдов (мс)
+slides_stop_on_hover = Остановить слайдшоу при наведении курсора
+slides_auto_start = Автоматический запуск слайдшоу
+slides_loop_changes = Зациклить смену слайдов
+slides_show_indicators = Показать индикаторы
+slides_show_navigation_buttons = Показать навигационные кнопки
+slides_quantity = Количество
+slides_text_animation = Анимация текста
+slides_text_color = Цвет текста
+
+;STAFF MANAGER
+staff_manager_group = Группа персонала
+staff_manager_note = Примечание
+staff_manager_select = Выберите разделы
+staff_manager_permissions = Доступные разделы для этой группы
+staff_manager_mode = Включить демо-режим для этой группы (только чтение)
+
+;STAFF
+staff_email = Email
+staff_password = Пароль
+staff_generate_password = Сгенерировать
+staff_note = Примечание
+staff_tooltip = После того как пароль будет сгенерирован, скопируйте его и сообщите новому сотруднику
+staff_chatgpt_token = ChatGPT токен
+staff_user_error = Внимание! Пользователь с таким Email уже есть. Пожалуйста, используйте другие данные для регистрации.
+
+;MESSAGES
+messages_alert_name = Сообщение eMarket
+
+;DASHBOARD
+dashboard_new_customers = Новые клиенты
+dashboard_average_check = Средний чек
+dashboard_repeat_orders = Повторные заказы
+dashboard_period = Период
+dashboard_orders_by_day_of_the_week = Заказы по дням недели
+dashboard_orders_quantity = Количество заказов
+dashboard_proceeds = Выручка
+dashboard_total = Итого:
+dashboard_orders_from_customers = Заказы от клиентов
+dashboard_new = Новые
+dashboard_repeat = Повторные
+dashboard_jan = Янв
+dashboard_feb = Фев
+dashboard_mar = Мар
+dashboard_apr = Апр
+dashboard_may = Май
+dashboard_jun = Июн
+dashboard_jul = Июл
+dashboard_aug = Авг
+dashboard_sep = Сен
+dashboard_oct = Окт
+dashboard_nov = Ноя
+dashboard_dec = Дек
+dashboard_sun = Вс
+dashboard_mon = Пн
+dashboard_tue = Вт
+dashboard_wed = Ср
+dashboard_thu = Чт
+dashboard_fri = Пт
+dashboard_sat = Сб
+
+;CHATGPT
+chatgpt_name = ChatGPT
+chatgpt_open_button = Спросить у ChatGPT
+chatgpt_send_button = Отправить
+chatgpt_user_placeholder = Спросить у ChatGPT...
+chatgpt_response = Ответ:
+chatgpt_api_key_saved = API ключ сохранен!
+chatgpt_api_key = ChatGPT API key
+
+;PAGE NOT FOUND
+page_not_found_header = Внимание!
+page_not_found_title = Страница не найдена
+page_not_found_text = Пожалуйста, укажите верный url или свяжитесь с администратором.

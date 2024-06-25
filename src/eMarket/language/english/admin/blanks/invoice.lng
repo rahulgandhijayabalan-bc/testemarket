@@ -1,0 +1,28 @@
+;=-=-=-= Copyright © 2018 eMarket =-=-=-=-=;
+;     GNU GENERAL PUBLIC LICENSE v.3.0     ;
+;   https://github.com/musicman3/eMarket   ;
+;=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-;
+
+[admin-blanks]
+
+;INVOICE
+blanks_invoice_title = Invoice
+blanks_invoice_name = Invoice #
+blanks_invoice_to = Invoice to:
+blanks_invoice_company_name = "My Company" LLC
+blanks_invoice_company_data = 100 Freedom Street, WA 10000, US
+blanks_invoice_company_contacts = (100) 100-0000 | company@example.com
+blanks_invoice_description = Description
+blanks_invoice_quantity = Quantity
+blanks_invoice_price = Price
+blanks_invoice_amount = Amount
+blanks_invoice_no = No.
+blanks_invoice_subtotal = SUBTOTAL:
+blanks_invoice_estimated_taxes  = TAXES:
+blanks_invoice_shipping  = SHIPPING:
+blanks_invoice_total = TOTAL:
+blanks_invoice_thank = Thank you!
+blanks_invoice_end = Invoice was created on a computer and is valid without the signature and seal.
+blanks_invoice_date_of = Date of Invoice:
+blanks_invoice_notice = NOTICE:
+blanks_invoice_notice_text = The prices quoted herein are valid for a period of 14 days from the date of this document.

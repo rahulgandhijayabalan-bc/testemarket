@@ -1,0 +1,32 @@
+;=-=-=-= Copyright © 2018 eMarket =-=-=-=-=;
+;     GNU GENERAL PUBLIC LICENSE v.3.0     ;
+;   https://github.com/musicman3/eMarket   ;
+;=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-;
+
+[all]
+modules_discount_sale_name = Распродажа
+modules_discount_sale_author = eMarket
+modules_discount_sale_version = 1.0
+
+[admin]
+
+;TITLE
+modules_discount_sale_admin_name = Название распродажи
+modules_discount_sale_admin_sale_start_date = Дата начала распродажи
+modules_discount_sale_admin_sale_end_date = Дата окончания распродажи
+modules_discount_sale_admin_value = Значение в процентах (%)
+modules_discount_sale_admin_tooltip_warning = Для этого товара используется несколько скидок одновременно:<br>
+modules_discount_sale_admin_button_sale_on = Добавить в распродажу
+modules_discount_sale_admin_button_sale_off = Убрать из распродажи
+modules_discount_sale_admin_button_sale_off_all = Убрать все распродажи
+modules_discount_sale_admin_button_sale = Распродажа
+modules_discount_sale_admin_confirm_delete_sale = Вы уверены что хотите убрать из распродажи?
+modules_discount_sale_admin_confirm_delete_sales = Вы уверены что хотите убрать все распродажи?
+modules_discount_sale_admin_attention = ВНИМАНИЕ!
+modules_discount_sale_admin_enter_value = Введите значение
+modules_discount_sale_admin_enter_date = Введите дату
+
+[catalog]
+
+;TITLE
+modules_discount_sale_catalog_test = Тест

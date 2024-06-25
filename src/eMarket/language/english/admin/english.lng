@@ -1,0 +1,414 @@
+;=-=-=-= Copyright © 2018 eMarket =-=-=-=-=;
+;     GNU GENERAL PUBLIC LICENSE v.3.0     ;
+;   https://github.com/musicman3/eMarket   ;
+;=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-;
+
+[admin]
+
+;SHOP NAME
+shop_name = eMarket
+
+;TITLE
+title_categories_index = Categories
+title_dashboard_index = Dashboard
+title_error_log_index = Error log
+title_action_log_index = Action log
+title_login_index = Login page
+title_manufacturers_index = Manufacturers
+title_orders_index = Orders
+title_basic_settings_index = Parameters
+title_countries_index = Countries
+title_countries_regions_index = Regions
+title_currencies_index = Currencies
+title_length_index = Length
+title_modules_index = Modules
+title_order_status_index = Order statuses
+title_taxes_index = Taxes
+title_templates_index = Template layout
+title_units_index = Units
+title_vendor_codes_index = Vendor codes
+title_weight_index = Weight
+title_zones_index = Zones
+title_zones_listing_index = Countries and regions
+title_slideshow_index = Slideshow
+title_stickers_index = Stickers
+title_stock_index = Stock
+title_customers_index = Customers
+title_staff_manager_index = Staff manager
+title_staff_manager_staff_index = Staff
+title_page_not_found_index = Page Not Found
+
+;MENU_BUTTONS
+menu_name = Main menu
+menu_dashboard = Dashboard
+menu_catalog = Catalog
+menu_market = Market
+menu_sales = Sales
+menu_production = Production
+menu_customers = Customers
+menu_marketing = Marketing
+menu_error_log = Error log
+menu_action_log = Action log
+menu_exit = Exit
+menu_extra = Extra
+menu_languages = Languages
+menu_settings = Settings
+menu_support = Support
+menu_tools = Tools
+
+;LOGIN
+login_error = E-Mail or password error
+
+;BUTTONS
+button_add = Add
+button_add_image = Add image...
+button_cancel = Cancel
+button_delete = Delete
+button_edit = Edit
+button_move = Move
+cancel = Cancel
+confirm-del = Are you sure you want to delete?
+confirm-no = No
+confirm-yes = Yes
+confirm-install = Install?
+confirm-status = Change status?
+confirm-no-switch = NO
+confirm-yes-switch = YES
+save = Save
+button_action = Action
+button_show = Show
+button_hide = Hide
+button_on = ON
+button_off = OFF
+button_sticker = Sticker
+button_sticker_add = Add sticker
+button_sticker_delete = Delete sticker
+button_back = Back
+cut = Cut
+paste = Paste
+search = Search...
+select_all = Select all
+select_country_and_region = Select country and region
+positions_selected = Positions selected
+pcs = pcs.
+new_version_available = New version available
+
+;OTHER
+with = Displaying 
+to = to
+of = of
+no_listing = No listing
+index-title = Welcome to CMS
+index-text = Modern platform for creating an online store
+name = Name
+images = Image
+display = Display
+max = Max.
+password = Password
+email = E-Mail
+entrance = Entrance
+product_price = Price
+product_quantity = Quantity
+product_unit = Unit
+product_description = Description
+name_little = Little name
+name_full = Full name
+name_description = Description
+add_name_description = Add description
+name_country = Country name
+country = Country
+alpha_2 = Code ISO 3166-1 Alpha 2
+alpha_3 = Code ISO 3166-1 Alpha 3
+country_flag = Country flag
+address_format = Address format:
+add_address_format = Add address format
+name_region = Name region
+name_zone = Zone name
+region_code = Region code
+region = Region
+value = Value
+default = Default
+default_set = Default set
+zone = Zone
+action_completed_successfully = Action completed successfully!
+action_failed = Action failed!
+categories_transfer = Transfer with the next page
+download_complete = Download complete!
+image_resize_error = ATTENTION: Some images not added. One of the sides of the image must be at least:
+attention = ATTENTION!
+confirm_delete_product_or_category = Are you sure you want to delete a category or product?
+confirm_delete_sticker = Are you sure you want to remove sticker?
+enter_value = Enter value
+
+;DEBUG
+debug_page_generation_time = Page generation time:
+debug_db_queries = DB queries:
+debug_sec = sec.
+debug_pcs = pcs.
+
+;MODULES
+payment_modules = Payment
+shipping_modules = Shipping
+discount_modules = Discount
+providers_modules = Providers
+tabs_modules = Product tabs
+extra_modules = Extra
+cart_modules = Cart
+other_modules = Other
+installed_modules = Installed modules
+uninstalled_modules = Modules available for installation
+modules_name = Modules name:
+modules_author = Author:
+modules_version = Version:
+
+;BASIC SETTINGS
+lines_on_page = Lines on page
+session_expr_time = Session downtime (min.)
+session_expr_time_help = The session will be active for set time after the last refresh of the browser page.
+debug_info = Debug info
+debug_on = On
+debug_off = Off
+basic_settigs_general = General settings
+basic_settigs_email = E-Mail settings
+basic_settings_host_email = Host
+basic_settings_username_email = Username
+basic_settings_password_email = Password
+basic_settings_smtp_auth = SMTP Authorization
+basic_settings_smtp_secure = Secure connect
+basic_settings_smtp_port = SMTP Port
+basic_settings_smtp_use = Use SMTP
+basic_settings_email = Sender E-mail
+basic_settings_email_name = Sender name
+basic_settings_primary_language = Primary language
+basic_settings_caching = Caching
+basic_settings_use_caching = Use caching
+basic_settings_caching_time = Caching time (sec.)
+
+;MANUFACTURERS
+manufacturer = Manufacturer
+site = Site
+
+;ORDER STATUS
+order_status_name = Order status
+
+;LENGTH
+length_name_little = Little name
+length_name_full = Full name
+length_value = Value
+
+;WEIGHT
+weight_name_little = Little name
+weight_name_full = Full name
+weight_value = Value
+
+;UNITS
+units_name_little = Little name
+units_name_full = Full name
+
+;VENDOR CODES
+vendor_codes_name = Vendor code
+vendor_codes_description = Description
+
+;CURRENCIES
+currencies_currency_symbol = Currency symbol
+currencies_decimal_places = Decimal places
+currencies_symbol_left = Symbol left
+currencies_symbol_right = Symbol right
+currencies_iso_4217 = Code ISO 4217
+currencies_name_little = Little name
+currencies_name_full = Full name
+currencies_value = Value
+currencies_position = Position
+
+;TAXES
+taxes_modal_name = Name
+taxes_modal_rate = Rate
+taxes_modal_percent = PERCENT
+taxes_modal_value = VALUE
+taxes_modal_included = INCLUDING
+taxes_modal_separately = SEPARATELY
+taxes_modal_fixed_desc = Fixed value / Percent
+taxes_modal_included_desc = Separately / Tax included
+taxes_modal_zones_desc = Tax zone
+taxes_rate = Rate
+taxes_name = Tax
+taxes_percent = %
+taxes_value = %s
+taxes_included = INCLUDING
+taxes_separately = SEPARATELY
+taxes_fixed_desc = Fixed value / Percent
+taxes_included_desc = Separately / Tax included
+taxes_zones_desc = Tax zone
+
+;CATEGORIES
+add_category = Add category
+add_product = Add product
+
+;TEMPLATES
+templates_all_pages = All pages
+templates_set = Set
+templates_delete = Delete
+templates_save = Save
+templates_name = Name
+templates_set_config_name = Set config name
+
+;ORDERS
+orders_total = Total
+orders_id = Product ID
+orders_status = Status
+orders_shipping = Shipping
+orders_client = Client
+orders_amount = Amount
+orders_quantity = Quantity
+orders_price = Price
+orders_product = Product
+orders_products = Products
+orders_sticker = Sticker
+orders_transaction_history = Transaction history
+orders_status_history = Status history
+orders_description = Description
+orders_payment_method = Payment method
+orders_billing_address = Billing address
+orders_date_added = Date added
+orders_date_of_change = Date of change
+orders_number = Order No.
+orders_subtotal = Products subtotal
+orders_estimated_taxes = Estimated Taxes:
+orders_price_including_all_taxes = Products subtotal is including all taxes
+orders_email = E-mail
+orders_change_status_subject = Status order #%s has been changed (%s).
+orders_change_status_message = Dear customer. The status of your order #%s has been changed <br><br>New order status: %s. <br><br>Details of the order can be found in your personal account: <a href="%s" target="_blank">%s</a>
+orders_change_status_message_providers = Status order #%s has been changed (%s).
+orders_blanks_invoice_title = Invoice
+
+;STOCK
+stock_tittle_specification_group_name = Specification group name
+stock_tittle_specification_name = Specification name
+stock_tittle_specification_value = Specification value
+stock_basic = Basic
+stock_specification = Specification
+stock_product_description = Description
+stock_product_basic = Basic
+stock_product_additional = Additional
+stock_product_specification = Specification
+stock_product_images = Images
+stock_product_name = Product name
+stock_product_description = Product description
+stock_product_keywords = Keywords for search engine optimization
+stock_product_tags = Tags for search engine optimization
+stock_product_price = Product price
+stock_product_currency = Currency
+stock_product_quantity_in_stock = Quantity in stock
+stock_product_quantity_unit = Quantity unit
+stock_product_model = Model
+stock_product_manufacturer = Manufacturer
+stock_product_receipt_date = Receipt date
+stock_product_tax = Tax
+stock_product_vendor_code_value = Vendor code value 
+stock_product_vendor_code = Vendor code
+stock_product_weight_value = Weight value
+stock_product_weight = Weight
+stock_product_minimum_order_quantity = Minimum order quantity
+stock_product_length_unit = Length unit
+stock_product_length_value = Length value
+stock_product_width_value = Width value
+stock_product_height_value = Height value
+stock_product_effects_for_image_processing = Effects for image processing
+stock_product_no_effects = No effects
+stock_product_sepia_effect = Sepia
+stock_product_black_and_white_effect = Black and white
+stock_product_blur1_effect = Blur 1
+stock_product_blur2_effect = Blur 2
+stock_product_create_description = Create a product description with this editor...
+
+;CUSTOMERS
+customers_firstname = Firstname
+customers_lastname = Lastname
+customers_email = Email
+customers_date_created = Date created
+
+;STICKERS
+stickers_name = Sticker name
+
+;SLIDES
+slides_image = Image
+slides_name = Name
+slides_show_start = Show start
+slides_show_end = Show end
+slides_text = Text
+slides_url = https://example.com
+slides_interval = Interval (ms)
+slides_interval_placeholder = Slide switching interval (ms)
+slides_stop_on_hover = Stop slideshow on hover
+slides_auto_start = Auto start slideshow
+slides_loop_changes = Loop Slide Changes
+slides_show_indicators = Show indicators
+slides_show_navigation_buttons = Show navigation buttons
+slides_quantity = Quantity
+slides_text_animation = Animating text
+slides_text_color = Text color
+
+;STAFF MANAGER
+staff_manager_group = Staff group 
+staff_manager_note = Note
+staff_manager_select = Select sections 
+staff_manager_permissions = Available sections for this group
+staff_manager_mode = Enable demo mode for this group (read-only)
+
+;STAFF
+staff_email = Email
+staff_password = Password
+staff_generate_password = Generate
+staff_note = Note
+staff_tooltip = After the password has been generated, copy it and inform the new employee
+staff_chatgpt_token = ChatGPT token
+staff_user_error = Attention! There is already a user with this Email. Please use other data for registration.
+
+;MESSAGES
+messages_alert_name = eMarket message
+
+;DASHBOARD
+dashboard_new_customers = New customers
+dashboard_average_check = Average check
+dashboard_repeat_orders = Repeat orders
+dashboard_period = Period
+dashboard_orders_by_day_of_the_week = Orders by day of the week
+dashboard_orders_quantity = Orders quantity
+dashboard_proceeds = Proceeds
+dashboard_total = Total:
+dashboard_orders_from_customers = Orders from customers
+dashboard_new = New
+dashboard_repeat = Repeat
+dashboard_jan = Jan
+dashboard_feb = Feb
+dashboard_mar = Mar
+dashboard_apr = Apr
+dashboard_may = May
+dashboard_jun = Jun
+dashboard_jul = Jul
+dashboard_aug = Aug
+dashboard_sep = Sep
+dashboard_oct = Oct
+dashboard_nov = Nov
+dashboard_dec = Dec
+dashboard_sun = Sun
+dashboard_mon = Mon
+dashboard_tue = Tue
+dashboard_wed = Wed
+dashboard_thu = Thu
+dashboard_fri = Fri
+dashboard_sat = Sat
+
+;CHATGPT
+chatgpt_name = ChatGPT
+chatgpt_open_button = Ask ChatGPT
+chatgpt_send_button = Send
+chatgpt_user_placeholder = Ask ChatGPT...
+chatgpt_response = Reply:
+chatgpt_api_key_saved = API key saved!
+chatgpt_api_key = ChatGPT API key
+
+;PAGE NOT FOUND
+page_not_found_header = Attention!
+page_not_found_title = Page not found
+page_not_found_text = Please enter a valid url or contact the administrator.

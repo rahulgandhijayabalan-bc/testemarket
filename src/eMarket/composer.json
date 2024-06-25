@@ -1,0 +1,28 @@
+{
+    "name": "emarket/emarket",
+    "description": "eMarket Online Store",
+    "type": "project",
+    "homepage": "https://github.com/musicman3/eMarket",
+    "license": "GPL-3.0-only",
+    "autoload": {
+        "psr-4": {
+            "eMarket\\": "model/eMarket/"
+        },
+        "classmap": ["model/library/php/packages/lpology/"]
+    },
+    "require": {
+        "claviska/simpleimage": "4.0.6",
+        "phpmailer/phpmailer": "6.9.1",
+        "monolog/monolog": "3.5.0",
+        "mpdf/mpdf": "8.2.1",
+        "symfony/cache": "7.0.3",
+        "psr/clock": "1.0.0",
+        "twbs/bootstrap": "5.3.2",
+        "musicman3/cruder": "1.0.8"
+    },
+    "config": {
+        "platform": {
+            "php": "8.3"
+        }
+    }
+}
